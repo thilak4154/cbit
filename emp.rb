@@ -1,5 +1,5 @@
 class Employee
-def self.sample(name,sal,add)
+def initialize(name,sal,add)
 @name=name
 @sal=sal
 @add=add
@@ -12,4 +12,4 @@ end
 
 
 end
-Employee.sample("manikanth",50000,"bang")
+Employee.new("manikanth",50000,"bang")
